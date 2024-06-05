@@ -1,0 +1,13 @@
+{
+    "name": "zane_smite/urapi",
+    "type": "project",
+    "require": {
+        "symfony/console": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "smitens",
+            "email": "zane.smite@gmail.com"
+        }
+    ]
+}
