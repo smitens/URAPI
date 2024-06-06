@@ -1,4 +1,4 @@
-# PHP Application README
+# PHP Application URAPI
 
 This is a simple PHP terminal based application that allows you to search for companies registrated in Republic of Latvia  by their name using the data.gov.lv API. It displays the search results in a table format using Symfony Console component.
 
