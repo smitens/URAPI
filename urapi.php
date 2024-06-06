@@ -24,10 +24,11 @@ while (true)
             $output = new ConsoleOutput();
             $table = new Table($output);
 
-            $table->setHeaders(['Name', 'Registration number']);
+            $table->setHeaders(['Name', 'Registration number', 'Registration form', 'Registration date']);
 
             foreach ($data->result->records as $company) {
-                $table->addRow([$company->name, $company->regcode . "\n"]);
+                $table->addRow([$company->name, $company->regcode, $company->type,
+                    $company ->registered . "\n"]);
             }
             $table->render();
 
